@@ -10,7 +10,7 @@ If no argument the length of the password is 1.*/
 
 const { passwordGenerator } = require("generator-passwordjs"); //Import the module.
 
-console.log(passwordGenerator(<Number>)); //Log the result.
+console.log(passwordGenerator(Number)); //Log the result.
 
 /*
 Example: 
